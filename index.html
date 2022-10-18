@@ -20,7 +20,7 @@
             <div class="about-me-section">
                 <h3 class="about-me-profession">QA Automation</h3>
 
-                <h1>Marcela Briceag</h1>
+                <h1 id="personname">Marcela Briceag</h1>
                 
                 <p>
                     I am an organized and versatile former student, capable of multitasking and working well with others. Efficacious in using a variety of social media platforms and software programs for the office.
@@ -28,24 +28,34 @@
             </div>
             <!--Projects section -->
             <div class="projects-section">
-                <h2>Projects</h2>
+                <h2 class="block-title">Projects</h2>
                 <ol>
                     <li>
-                        <a href="https://github.com/briceagm/Curs_ITFactory.git">https://github.com/briceagm/Curs_ITFactory.git</a>
-                        <span>...........</span>
-                        <span>[Python]</span>
+                        <span class="projects-item">
+                            <a href="https://github.com/briceagm/Curs_ITFactory.git">https://github.com/briceagm/Curs_ITFactory.git</a>
+                            ...........
+                            <span class="bracket">[</span> PYTHON <span class="bracket">]</span>
+                            
+                        </span>
+                    </li>
+                    <li>
+                        <span class="projects-item">
+                            <a href="https://github.com/briceagm/My_CV.git">https://github.com/briceagm/My_CV.git</a>
+                            ...........
+                            <span class="bracket">[</span> HTML, CSS <span class="bracket">]</span>
+                        </span>
                     </li>
                 </ol>
                 
             </div>
             <!--Work experience -->
             <div class="work-experience-section">
-                <h2>Work Experience</h2>
+                <h2 class="block-title">Work Experience</h2>
                 <!--Company nr.3-->
                     <div>
-                        <h3>Shop Assistant | C&A</h3>
-                        <p>November 2021 - May 2022  | Iasi, Romania</p>
-                        <ul>
+                        <h3 class="work-experience-position">Shop Assistant  <span class="work-experience-company">C&A</span></h3>
+                        <p class="work-experience-period">November 2021 - May 2022 <span class="line-break">|</span> Iasi, Romania</p>
+                        <ul class="work-experience-duties">
                             <li>Receiving, unpacking, and arranging new shipments from suppliers and vendors.</li>
                             <li> Providing shopping advice and recommendations to customers.</li>
                             <li> Collaborating with other team members to keep the sales area organized at all times.</li>
@@ -54,9 +64,9 @@
                 
                 <!--Company nr.2-->
                 <div>
-                    <h3>Cashier Customer Service | The York Beach Bucket</h3>
-                    <p>June 2021 - September 2021  |  York Beach, United States of America</p>
-                    <ul>
+                    <h3 class="work-experience-position">Cashier Customer Service  <span class="work-experience-company">The York Beach Bucket</span></h3>
+                    <p class="work-experience-period">June 2021 - September 2021  <span class="line-break">|</span>  York Beach, United States of America</p>
+                    <ul class="work-experience-duties">
                         <li>Manage transactions with customers using cash registers.</li>
                         <li>Scan goods and ensure pricing is accurate.</li>
                         <li>Collect payments whether in cash or credit.</li>
@@ -65,9 +75,9 @@
             
                 <!--Company nr.1 -->
                 <div>
-                    <h3>Shop Assistant | H&M</h3>
-                    <p>January 2021 - May 2021  | Iasi, Romania</p>
-                    <ul>
+                    <h3 class="work-experience-position">Shop Assistant  <span class="work-experience-company">H&M</span></h3>
+                    <p class="work-experience-period">January 2021 - May 2021 <span class="line-break">|</span> Iasi, Romania</p>
+                    <ul class="work-experience-duties">
                         <li>Assisting customers in finding the products they're looking for</li>
                         <li>Arranging and labeling goods on the display shelves</li>   
                     </ul>
@@ -75,10 +85,10 @@
             </div>
             <!--Education-->
             <div>
-                <h2>Education</h2>
+                <h2 class="block-title">Education</h2>
                 <div>
-                    <h4>Russian and German Language and Literature, Bachelor's degree, "Alexandru Ioan Cuza" University</h4>
-                    <p>October 2019 - July 2022 |  Iasi, Romania</p>
+                    <h4 class="education-name">Russian and German Language and Literature, Bachelor's degree, <span class="education-institute"> "Alexandru Ioan Cuza" University</span></h4>
+                    <p class="education-period">October 2019 - July 2022 <span class="line-break">|</span>  Iasi, Romania</p>
                 </div>
             </div>
         </div>
@@ -86,34 +96,34 @@
         <aside class="sidebar-section">
             <img class="img-class"  src="./img/photo.jpg" alt="my photo">
             <!--Contacts section-->
-            <div>
-                <h2>Contacts</h2> 
+            <div class="contacts-section">
+                <h2 class="sidebar-title"> Contacts</h2> 
                 <div>
-                    <span>C:</span>
-                    <a href="+447856461166">+447856461166</a> 
+                    <span class="contacts-section-type">C:</span>
+                    <a class="contacts-section-value" href="+447856461166">+447856461166</a> 
                 </div>
                 <div>
-                    <span>E:</span>
-                    <a href="mail to:marcela.briceag2605@gmail.com">marcela.briceag2605@gmail.com</a>
+                    <span class="contacts-section-type">E:</span>
+                    <a class="contacts-section-value" href="mail to:marcela.briceag2605@gmail.com">marcela.briceag2605@gmail.com</a>
                 </div>
 
             </div>
             <!--Tech skills section-->
-            <div>
-                <h2>Tech Skills</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>PYTHON</li>
+            <div class="tech-skills-section">
+                <h2 class="sidebar-title">Tech Skills</h2>
+                <ul class="sidebar-list">
+                    <li><span>HTML5</span></li>
+                    <li><span>CSS3</span></li>
+                    <li><span>GIT</span></li>
+                    <li><span>PYTHON</span></li>
                 </ul>
             </div>
             <!--Soft Skills-->
-            <div>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Agile</li>
-                    <li>Teamwork</li>
+            <div class="soft-skills-section">
+                <h2 class="sidebar-title">Soft Skills</h2>
+                <ul class="sidebar-list">
+                    <li><span>Agile</span></li>
+                    <li><span>Teamwork</span></li>
                 </ul>
             </div>
         </aside>  
